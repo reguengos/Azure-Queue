@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+<div class="jumbotron">
+    <h1>Azure Queue Batch Processing</h1>
+    
+        <div>
+            <center>
+                <h2>@Html.TextBox("myUrlBox", "Enter the URL to convert into PDF", new { @class = "form-control" })</h2>
+                <input type="button" style="margin:10px;width:250px" class="btn btn-primary" onclick="window.location.href='/Pdf/SendToQueue'" value="Create PDF" />
+            </center>
+
+        </div>
+    
+</div>
