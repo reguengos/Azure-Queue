@@ -12,6 +12,12 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{A5BAB4
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Receiver", "Receiver\Receiver.csproj", "{406F0B89-75D8-4338-B938-A8596CE656AB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "schedulerWindowsService", "schedulerWindowsService\schedulerWindowsService.csproj", "{3C19F8B8-BE95-45C4-8648-D72BE9D8E6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "QueueReceiverNotCore", "QueueReceiverNotCore\QueueReceiverNotCore.csproj", "{F91D1D51-81FC-40F4-B452-28D6C9944DA1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -22,6 +28,18 @@ Global
 		{07D1C353-4626-4D20-A804-531517BCF3F5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{07D1C353-4626-4D20-A804-531517BCF3F5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{07D1C353-4626-4D20-A804-531517BCF3F5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{406F0B89-75D8-4338-B938-A8596CE656AB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{406F0B89-75D8-4338-B938-A8596CE656AB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{406F0B89-75D8-4338-B938-A8596CE656AB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{406F0B89-75D8-4338-B938-A8596CE656AB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C19F8B8-BE95-45C4-8648-D72BE9D8E6B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C19F8B8-BE95-45C4-8648-D72BE9D8E6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C19F8B8-BE95-45C4-8648-D72BE9D8E6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C19F8B8-BE95-45C4-8648-D72BE9D8E6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F91D1D51-81FC-40F4-B452-28D6C9944DA1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F91D1D51-81FC-40F4-B452-28D6C9944DA1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F91D1D51-81FC-40F4-B452-28D6C9944DA1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F91D1D51-81FC-40F4-B452-28D6C9944DA1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
